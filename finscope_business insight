@@ -65,3 +65,8 @@ plt.title("Companies With vs Without Listed Founders")
 plt.ylabel("Number of Companies")
 plt.tight_layout()
 plt.show()
+
+# Identify repeat founders
+# Split multiple founders by delimiter ';'
+founder_series = df['Founder'].dropna().str.split(';').explode().str.strip()
+
