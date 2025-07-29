@@ -35,3 +35,7 @@ sns.lineplot(x=founding_year_trend.index, y=founding_year_trend.values, marker="
 axes[1, 0].set_title("Founding Year Trend")
 axes[1, 0].set_xlabel("Year")
 axes[1, 0].set_ylabel("Number of Companies")
+
+# Segment Distribution
+sns.barplot(x=segment_counts.values, y=segment_counts.index, ax=axes[1, 1], palette="Oranges_d")
+axes[1, 1].set_title("Segment Distribution")
