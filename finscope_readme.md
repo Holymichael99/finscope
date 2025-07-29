@@ -194,7 +194,6 @@ The absence of founder information may correlate with lower transparency or comp
 
 This chart emphasizes the value of founder visibility in signaling organizational structure and leadership accountability, which can directly impact investor interest and strategic partnerships.
 
-Let me know if you'd like this written directly into your README or converted into Markdown or PDF format for clean presentation.
 ---
 
 ##  4. Advanced Modelling
