@@ -47,3 +47,8 @@ plt.title("Distribution of Top 5 Legal Forms")
 plt.axis("equal")
 plt.tight_layout()
 plt.show()
+
+# --- 4. Heatmap: Segment distribution across top cities ---
+# Filter to top cities
+top_city_names = top_cities.index.tolist()
+filtered_df = df[df['City'].isin(top_city_names)]
