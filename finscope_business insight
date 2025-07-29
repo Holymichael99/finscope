@@ -37,3 +37,17 @@ plt.show()
 # =============================
 insolvency_counts = df['Insolvency'].value_counts().rename({0: 'No', 1: 'Yes'})
 liquidation_counts = df['Liquidation'].value_counts().rename({0: 'No', 1: 'Yes'})
+
+# Plot insolvency and liquidation side-by-side
+fig, ax = plt.subplots(1, 2, figsize=(14, 5))
+
+sns.barplot(x=insolvency_counts.index, y=insolvency_counts.values, ax=ax[0], palette='Reds')
+ax[0].set_title("Insolvency Status")
+ax[0].set_ylabel("Number of Companies")
+
+sns.barplot(x=liquidation_counts.index, y=liquidation_counts.values, ax=ax[1], palette='Purples')
+ax[1].set_title("Liquidation Status")
+ax[1].set_ylabel("Number of Companies")
+
+plt.tight_layout()
+plt.show()
