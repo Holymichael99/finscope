@@ -153,7 +153,48 @@ Strategic evaluation of lifecycle and founder-related patterns.
 - 👤 **Founder Influence**: Repeat founders exist, indicating serial entrepreneurship
 
 > Top repeat founders were identified, offering potential for partnership targeting or ecosystem mapping.
- ![alt text](<Screenshot 2025-07-29 122215.png>)  ![alt text](<Screenshot 2025-07-29 122255.png>) ![alt text](<Screenshot 2025-07-29 122315.png>)
+ ![alt text](<Screenshot 2025-07-29 122215.png>)  ##  Estimated Company Lifespan (Years)
+This histogram displays the distribution of company lifespans (i.e., number of years they remained active). The data shows that a majority of companies survive between 2 to 6 years, with a noticeable peak around the 4–5-year mark. After that, the number of surviving companies drops off significantly.
+
+Key insights:
+
+Most FinTechs are relatively young and face high mortality within the first 6 years.
+
+This trend aligns with the typical startup life cycle, where product-market fit, funding, and regulatory adaptation determine long-term survival.
+
+A smaller tail of companies lasts 10+ years, suggesting those that survive initial phases may reach stable maturity.
+
+This visualization underscores the importance of early-stage support, solid business models, and strategic planning in ensuring FinTech sustainability.
+  ![alt text](<Screenshot 2025-07-29 122255.png>)  ##  Insolvency & Liquidation Status of Companies
+These two bar charts represent the current financial health status of companies in the dataset:
+
+On the left, the Insolvency Status chart shows that only a small fraction of companies (under 5%) have officially entered insolvency proceedings.
+
+On the right, the Liquidation Status chart reveals that about 10% of companies have been liquidated.
+
+Interpretation:
+
+The low insolvency rate may indicate that many startups either pivot or quietly shut down without formal bankruptcy.
+
+The higher liquidation rate suggests voluntary closure, restructuring, or early acquisition rather than financial collapse.
+
+Together, these visuals highlight that while formal financial failure is relatively rare, exits (voluntary or strategic) remain common. This informs investors about potential exit scenarios and risk management strategies.
+   ![alt text](<Screenshot 2025-07-29 122315.png>)  ##  Companies With vs. Without Listed Founders
+This bar chart compares the number of companies that have at least one known founder listed against those that do not.
+
+A vast majority of FinTech companies in the dataset have at least one listed founder.
+
+A much smaller portion lacks founder data—either due to incomplete public records or possibly anonymous or institution-led foundations.
+
+Business insight:
+
+Companies with visible founders often benefit from credibility, leadership signaling, and investor trust.
+
+The absence of founder information may correlate with lower transparency or companies that are subsidiaries of larger institutions, rather than independently founded startups.
+
+This chart emphasizes the value of founder visibility in signaling organizational structure and leadership accountability, which can directly impact investor interest and strategic partnerships.
+
+Let me know if you'd like this written directly into your README or converted into Markdown or PDF format for clean presentation.
 ---
 
 ## 🤖 4. Advanced Modelling
