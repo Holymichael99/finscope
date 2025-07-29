@@ -39,3 +39,8 @@ axes[1, 0].set_ylabel("Number of Companies")
 # Segment Distribution
 sns.barplot(x=segment_counts.values, y=segment_counts.index, ax=axes[1, 1], palette="Oranges_d")
 axes[1, 1].set_title("Segment Distribution")
+
+
+# Top 10 Subsegments
+sns.barplot(x=subsegment_counts.values, y=subsegment_counts.index, ax=axes[2, 0], palette="Purples_d")
+axes[2, 0].set_title("Top 10 Subsegments")
