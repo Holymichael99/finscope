@@ -21,3 +21,11 @@ bank_coop_counts = df['Bank Cooperation'].value_counts().rename({0: 'No', 1: 'Ye
 # Create plots
 fig, axes = plt.subplots(3, 2, figsize=(16, 18))
 fig.suptitle("German FinTech Companies Analysis", fontsize=18)
+
+# Top 10 Legal Forms
+sns.barplot(x=legal_form_counts.values, y=legal_form_counts.index, ax=axes[0, 0], palette="Blues_d")
+axes[0, 0].set_title("Top 10 Legal Forms")
+
+# Top 10 Cities
+sns.barplot(x=top_cities.values, y=top_cities.index, ax=axes[0, 1], palette="Greens_d")
+axes[0, 1].set_title("Top 10 Cities")
