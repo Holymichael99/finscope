@@ -51,3 +51,17 @@ ax[1].set_ylabel("Number of Companies")
 
 plt.tight_layout()
 plt.show()
+
+# =======================
+# 3. Founder Influence
+# =======================
+# Count companies with a listed founder
+df['Has Founder'] = df['Founder'].notna()
+founder_counts = df['Has Founder'].value_counts().rename({True: 'With Founder', False: 'No Founder'})
+
+plt.figure()
+sns.barplot(x=founder_counts.index, y=founder_counts.values, palette="Blues")
+plt.title("Companies With vs Without Listed Founders")
+plt.ylabel("Number of Companies")
+plt.tight_layout()
+plt.show()
