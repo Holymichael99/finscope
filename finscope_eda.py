@@ -44,3 +44,8 @@ axes[1, 1].set_title("Segment Distribution")
 # Top 10 Subsegments
 sns.barplot(x=subsegment_counts.values, y=subsegment_counts.index, ax=axes[2, 0], palette="Purples_d")
 axes[2, 0].set_title("Top 10 Subsegments")
+
+# Bank Cooperation Status
+sns.barplot(x=bank_coop_counts.index, y=bank_coop_counts.values, ax=axes[2, 1], palette="Reds_d")
+axes[2, 1].set_title("Bank Cooperation Status")
+axes[2, 1].set_ylabel("Number of Companies")
