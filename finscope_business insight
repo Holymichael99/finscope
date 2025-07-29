@@ -22,3 +22,12 @@ df['Lifespan'] = df['Date of inactivity'].dt.year - df['Founding year']
 # Only consider rows with both founding year and inactivity date
 lifespan_df = df.dropna(subset=['Founding year', 'Date of inactivity', 'Lifespan'])
 lifespan_df = lifespan_df[lifespan_df['Lifespan'] >= 0]
+
+# Plot histogram of lifespans
+plt.figure()
+sns.histplot(lifespan_df['Lifespan'], bins=range(0, 21), kde=True, color="tomato")
+plt.title("Estimated Company Lifespan (Years)")
+plt.xlabel("Years Active")
+plt.ylabel("Number of Companies")
+plt.tight_layout()
+plt.show()
