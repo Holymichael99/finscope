@@ -37,3 +37,13 @@ plt.ylabel("Number of Companies")
 plt.grid(True)
 plt.tight_layout()
 plt.show()
+
+# --- 3. Pie Chart: Legal form distribution ---
+legal_form_counts = df['Legal form'].value_counts().head(5)
+
+plt.figure(figsize=(8, 8))
+plt.pie(legal_form_counts, labels=legal_form_counts.index, autopct='%1.1f%%', startangle=140, colors=sns.color_palette("pastel"))
+plt.title("Distribution of Top 5 Legal Forms")
+plt.axis("equal")
+plt.tight_layout()
+plt.show()
