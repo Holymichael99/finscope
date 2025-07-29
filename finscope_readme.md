@@ -36,6 +36,42 @@ Each of these plots helped us explore key structural properties of FinTech compa
 
 
 ![alt text](<Screenshot 2025-07-29 121719.png>)
+
+##  Exploratory Data Analysis (EDA)
+The EDA section explores structural, geographical, and categorical distributions of the German FinTech ecosystem using visual insights.
+
+ Overview Chart: German FinTech Companies Analysis
+The figure below provides a multi-faceted overview of the dataset, combining key distributions and trends.
+
+
+ Insights from the Chart:
+Top 10 Legal Forms
+The most common legal structure is GmbH, with over 600 companies registered under this form. Other structures like AG, UG, and Ltd. appear much less frequently, suggesting a strong preference for GmbH among German FinTechs due to its flexible and well-recognized corporate framework.
+
+Top 10 Cities
+The FinTech scene is heavily concentrated in Berlin, followed by München, Hamburg, and Frankfurt am Main. These urban centers likely offer stronger financial ecosystems, tech talent, and regulatory support.
+
+Founding Year Trend
+The founding trend shows a sharp increase in FinTech startups post-2010, peaking around 2017–2019. This surge aligns with broader global trends in digital finance and innovation post-2008 financial crisis.
+
+Segment Distribution
+The most represented segments are Other FinTechs, Financing, and Payments, indicating a diverse and growing market with companies branching beyond traditional banking or insurance.
+
+Top 10 Subsectors
+The leading subsectors include:
+
+Technology, IT, and Infrastructure
+
+Insurance
+
+Alternative Payment Methods
+
+Crowdinvesting
+
+This points to a wide array of service innovations within the industry.
+
+Bank Cooperation Status
+The majority of FinTechs do not cooperate with traditional banks. This finding reflects a key FinTech ethos: offering independent, often disruptive services. However, a notable minority (~20%) still seek strategic alliances with banks.
 ---
 
 ## 📈 2. Visual Analysis
