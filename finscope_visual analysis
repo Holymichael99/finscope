@@ -25,3 +25,15 @@ plt.xlabel("Number of Companies")
 plt.ylabel("City")
 plt.tight_layout()
 plt.show()
+
+# --- 2. Line Chart: Founding year trend ---
+founding_trend = df['Founding year'].value_counts().sort_index()
+
+plt.figure(figsize=(10, 6))
+sns.lineplot(x=founding_trend.index, y=founding_trend.values, marker="o", color='steelblue')
+plt.title("Trend of FinTech Company Foundings Over Years")
+plt.xlabel("Year")
+plt.ylabel("Number of Companies")
+plt.grid(True)
+plt.tight_layout()
+plt.show()
