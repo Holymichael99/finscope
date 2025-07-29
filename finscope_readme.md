@@ -377,3 +377,17 @@ This end-to-end analysis not only examines the founding trends, risks, and struc
    - Visuals
    - Business Insight
    - Advanced Modelling
+
+     ## Project Status
+
+ Complete — Models and insights validated. Ready for presentation, reporting, or deployment.
+
+## Author
+
+**Damilare Igbosanya**
+
+---
+
+## License
+
+This project is released for educational and portfolio purposes.
