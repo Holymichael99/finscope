@@ -17,3 +17,7 @@ founding_year_trend = df['Founding year'].dropna().astype(int).value_counts().so
 segment_counts = df['Segment'].value_counts()
 subsegment_counts = df['Subsegment'].value_counts().head(10)
 bank_coop_counts = df['Bank Cooperation'].value_counts().rename({0: 'No', 1: 'Yes'})
+
+# Create plots
+fig, axes = plt.subplots(3, 2, figsize=(16, 18))
+fig.suptitle("German FinTech Companies Analysis", fontsize=18)
