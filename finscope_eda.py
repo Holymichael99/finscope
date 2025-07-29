@@ -29,3 +29,9 @@ axes[0, 0].set_title("Top 10 Legal Forms")
 # Top 10 Cities
 sns.barplot(x=top_cities.values, y=top_cities.index, ax=axes[0, 1], palette="Greens_d")
 axes[0, 1].set_title("Top 10 Cities")
+
+# Founding Year Trend
+sns.lineplot(x=founding_year_trend.index, y=founding_year_trend.values, marker="o", ax=axes[1, 0])
+axes[1, 0].set_title("Founding Year Trend")
+axes[1, 0].set_xlabel("Year")
+axes[1, 0].set_ylabel("Number of Companies")
