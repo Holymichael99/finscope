@@ -18,3 +18,7 @@ df = pd.read_csv(file_path)
 df['Founding year'] = pd.to_numeric(df['Founding year'], errors='coerce')
 df['Date of inactivity'] = pd.to_datetime(df['Date of inactivity'], errors='coerce')
 df['Lifespan'] = df['Date of inactivity'].dt.year - df['Founding year']
+
+# Only consider rows with both founding year and inactivity date
+lifespan_df = df.dropna(subset=['Founding year', 'Date of inactivity', 'Lifespan'])
+lifespan_df = lifespan_df[lifespan_df['Lifespan'] >= 0]
