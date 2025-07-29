@@ -52,3 +52,6 @@ plt.show()
 # Filter to top cities
 top_city_names = top_cities.index.tolist()
 filtered_df = df[df['City'].isin(top_city_names)]
+
+# Create pivot table: cities vs segments
+pivot_table = pd.pivot_table(filtered_df, index='City', columns='Segment', aggfunc='size', fill_value=0)
