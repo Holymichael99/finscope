@@ -70,3 +70,6 @@ plt.show()
 # Split multiple founders by delimiter ';'
 founder_series = df['Founder'].dropna().str.split(';').explode().str.strip()
 
+# Count founders who appear more than once
+repeat_founders = founder_series.value_counts()
+repeat_founders = repeat_founders[repeat_founders > 1]
