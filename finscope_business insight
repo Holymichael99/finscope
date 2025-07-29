@@ -73,3 +73,7 @@ founder_series = df['Founder'].dropna().str.split(';').explode().str.strip()
 # Count founders who appear more than once
 repeat_founders = founder_series.value_counts()
 repeat_founders = repeat_founders[repeat_founders > 1]
+
+# Display top repeat founders
+print("Top Repeat Founders (Appeared in Multiple Companies):")
+print(repeat_founders.head(10))
