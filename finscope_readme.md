@@ -369,7 +369,7 @@ Assists banks, investors, and policymakers in targeting or supporting specific F
  Final Takeaway
 This end-to-end analysis not only examines the founding trends, risks, and structural features of German FinTech startups, but also provides insightful clustering that reveals behavioral patterns and company typologies. The result is a multidimensional view of an evolving ecosystem—backed by data, sharpened by visual storytelling, and deepened through modeling.
 
-## 📁 Running the Code
+##  Running the Code
 
 1. Clone the repo or open the Jupyter notebook
 2. Make sure `German_FinTechCompanies.csv` is in the working directory
