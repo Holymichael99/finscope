@@ -31,3 +31,9 @@ plt.xlabel("Years Active")
 plt.ylabel("Number of Companies")
 plt.tight_layout()
 plt.show()
+
+# =============================
+# 2. Insolvency and Liquidation
+# =============================
+insolvency_counts = df['Insolvency'].value_counts().rename({0: 'No', 1: 'Yes'})
+liquidation_counts = df['Liquidation'].value_counts().rename({0: 'No', 1: 'Yes'})
