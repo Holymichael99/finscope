@@ -85,7 +85,60 @@ Focused plotting was used to enhance interpretability.
 
 📌 These revealed strong geographic and structural clustering patterns, especially in Berlin and Munich.
 
-![alt text](<Screenshot 2025-07-29 122005.png>)  ![alt text](<Screenshot 2025-07-29 122051.png>)  ![alt text](<Screenshot 2025-07-29 122117.png>)  ![alt text](<Screenshot 2025-07-29 122141.png>)
+![alt text](<Screenshot 2025-07-29 122005.png>)  ##  Top 10 Cities by Number of FinTech Companies
+This horizontal bar chart presents the distribution of FinTech companies across the top 10 cities by company count. The analysis reveals a clear dominance by Berlin, followed closely by München (Munich), Hamburg, and Frankfurt am Main—each recognized financial or technological hubs within Germany.
+
+Berlin leads the ecosystem with over 200 companies, benefiting from its startup-friendly environment, abundant venture capital, and international appeal.
+
+Frankfurt am Main, Germany’s financial capital, unsurprisingly holds a strong position, especially due to its proximity to the European Central Bank.
+
+London appears in the dataset, which may indicate either data overlap with multi-location companies or a segment of German-registered FinTechs based in the UK.
+
+Cities like Köln, Düsseldorf, and Stuttgart have moderate representation, suggesting regional clusters that support FinTech innovation but at a smaller scale.
+
+This chart emphasizes the concentration of FinTech innovation in urban, economically active regions, informing investors, regulators, and talent about potential hotbeds of activity.
+
+
+ ![alt text](<Screenshot 2025-07-29 122051.png>)  ## Trend of FinTech Company Foundings Over the Years
+The line plot tracks the number of FinTech companies founded per year from 1920 to 2022. It shows a long period of inactivity followed by a dramatic rise in company formations starting in the early 2000s, peaking between 2016 and 2018.
+
+Key observations:
+
+The sharp growth between 2010–2018 aligns with major drivers such as the rise of mobile banking, peer-to-peer lending, AI in finance, and the adoption of PSD2 regulations across the EU.
+
+The peak around 2017–2018 may reflect high investor confidence and rapid digital transformation in traditional financial services.
+
+A steep decline post-2018 indicates either market saturation, tighter regulations, funding constraints, or consolidation trends.
+
+The slight uptick in earlier years may reflect legacy institutions or data inconsistencies, but they are negligible in modern FinTech growth analysis.
+
+This visualization clearly captures the life cycle of innovation in the sector, providing essential insight into investment timing, ecosystem maturity, and policy influence.
+  ![alt text](<Screenshot 2025-07-29 122117.png>)   ## Distribution of Top 5 Legal Forms
+The pie chart represents the legal structure preferences of German FinTech companies, focusing on the top five legal forms.
+
+The GmbH (Gesellschaft mit beschränkter Haftung) overwhelmingly dominates with 74.4%, indicating a strong preference for limited liability, ease of registration, and perceived credibility with investors.
+
+The AG (Aktiengesellschaft), making up 13.9%, is typically used by larger, shareholder-driven companies, which may reflect firms that scale or seek public investment.
+
+UG (Unternehmergesellschaft), at 5.3%, is a form of mini-GmbH for startups with lower capital requirements, suggesting a lean entry strategy.
+
+Ltd. and GmbH & Co. KG appear minimally, reflecting either foreign-registered entities or hybrid legal strategies.
+
+This visualization underscores how legal structure choices align with strategic goals, such as risk mitigation, capital raising, and governance control.
+   ![alt text](<Screenshot 2025-07-29 122141.png>)  ##  Heatmap of FinTech Segments Across Top Cities
+The heatmap shows how different FinTech segments—Asset Management, Financing, Payments, and Other FinTechs—are distributed across top cities. Each cell contains the count of companies within a city-segment pair, with intensity indicating concentration.
+
+Key insights:
+
+Berlin shows strong and balanced representation across all segments, especially in "Other FinTechs" (78), suggesting a highly diversified and mature ecosystem.
+
+München and Frankfurt am Main show strengths in Asset Management and Financing, consistent with their status as financial and institutional capitals.
+
+Hamburg shows notable strength in the Other FinTechs segment, which may include InsurTechs, RegTechs, or niche services.
+
+Cities like Dresden, Hannover, and Stuttgart display low segment activity, potentially due to smaller markets or fewer innovation incentives.
+
+This visual provides strategic value for segment-level expansion planning, market entry assessments, and policymaker focus areas.
 ---
 
 
