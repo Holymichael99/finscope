@@ -49,3 +49,7 @@ axes[2, 0].set_title("Top 10 Subsegments")
 sns.barplot(x=bank_coop_counts.index, y=bank_coop_counts.values, ax=axes[2, 1], palette="Reds_d")
 axes[2, 1].set_title("Bank Cooperation Status")
 axes[2, 1].set_ylabel("Number of Companies")
+
+# Layout adjustment
+plt.tight_layout(rect=[0, 0, 1, 0.97])
+plt.show()
